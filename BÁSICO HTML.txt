@@ -1,0 +1,18 @@
+HTML é focada em conteudo
+CSS foca em design
+JAVA SCRIP tá nas interações
+
+ESTILO EM CSS
+
+h1{
+ font-famiy:Arial;
+ font-size:20pt;
+ color:blue;
+   }
+
+CONTEUDO EM HTML
+
+<h1>Exemplo de titulo</h1>
+<p>Exemplo de paragrafo</p>
+<img src="foto.png"alt="Exemplo de foto">
+

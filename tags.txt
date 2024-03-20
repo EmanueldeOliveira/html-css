@@ -1,0 +1,108 @@
+TAGS
+
+H1= CABEÇALHO
+P = PARÁGRAFO
+BR = QUEBRA A LINHA
+&lt; = <
+&gt; = >
+&#xCODIGO = emojis
+imagem = Ctrl+espaço
+imagem src= pega imagem direto da internet
+Hr = linha horizontal
+link:favicon = para adicionar um favicon (ctrl+espaço
+h2= subtítulo
+adress= endereço
+--------------------------------------------
+<style>
+        body{
+            background-color: aqua;             = mudar cor de fundo do site
+        }
+    </style>
+--------------------------------------------
+NEGRITO DE FORMA SEMÂNTINA = strong
+NEGRITO NÃO SEMÂNTICO = b
+itáico = i (não semântico)
+itáico = EM ( semântico)
+ctrl + shift + p = envelopar
+MARK = marcar um texto
+mark style="background-color: = cor da marcação
+-----------------------------------------------
+<style>
+        mark {
+            background-color: chartreuse;      = muda a cor de todos os mark
+        }
+    </style>
+-----------------------------------------------
+small= texto pequeno
+del = texto excluido
+ins = texto inserido
+sub = texto sobrescrito
+code = fonte monoespaçada
+pre = organiza os codigos
+shift + tab= tira espaços
+q = aspas, citações
+bloclquote, ou blockquote cite = citações completas
+abbr = abrevições
+ol type="1" start="1" = listas ordenadas
+ul = listas não ordenadas
+-----------------------------------------------------
+ <ol>
+        <li>Antigas</li>
+        <ol>
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delpi</li>
+        </ol>
+        <li>Novas</li>                                = LISTAS ORDENADAS
+        <ol start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+-----------------------------------------------------+
+<picture>
+        <source media="(max-width: 1000px )" srcset="imagens/foto-png.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/fotom.png" type="image/png">     FOTO DINAMICA
+        <img src="imagens/fotog.png" alt="imagem flexivel">
+    </picture>
+------------------------------------------------------------------------------------------------
+<audio src="midia/guanacast-33.mp3" controls autoplay></audio> = para reproduzir um áudio
+------------------------------------------------------------------
+<audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não suporta Audios, <a href="midia/guanacast-33.mp3">clique aqui</a> para baixar o arquivo MP3</p>
+    </audio>
+-----------------------------------------------= Audio em vários formatos
+=============================================================================================================
+<video controls POSTER width="500">
+          <source src="midia/meu-video.mp4.mp4"  type="video/mp4">
+          <source src="midia/Meu-Video.webm.webm"  type="video/webm">
+          <source src="midia/meuvideo-ogv.ogv"  type="video/ogv">
+          <p>Seu navegador não suporta videos, <a href="midia/meu-video.mp4.mp4">clique aqui</a> para fazer o download do arquivo MP4</p>
+    </video>           = para colocar vídeo
+=================================================================================================================
+a = targetblank abre outra pagina
+----------------------------------------------
+<style>
+        body{
+            background-color: aquamarine;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+        }
+        h1{
+            color: black;
+            background-color: aliceblue;
+        }
+        p{
+            text-align: justify;
+        }
+    </style>
+-------------------------------------------------------------------= MELHOR JEITO DE USAR CSS PARA UMA PÁGINA
+MELHOR FORMA = <link rel="stylesheet" href="style.css"> #Pode também misturar as formas de usar o css 
+ style="text-align: right;" = texto a direita
+-----------------------------------------------------------------------------------------------------

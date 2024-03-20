@@ -1,0 +1,120 @@
+TAGS 2
+-----------------------------------------------------------
+MEDIDAS ABSOLUTAS: cm, mm, in, px, pt, pc
+--------------------------------------------------------------= RECOMENDADAS PX E EM, 16px=1em           
+MEDIDAS RELATIVAS: em, ex, rem, vw, vh, %
+--------------------------------------------------------------
+ background-image: linear-gradient = degrade
+-----------------------------------------------------------------
+main = onde está o conteudo principal do site
+----------------------------------------------------
+padding = define uma a distância entre o conteúdo do main de suas bordas.
+--------------------------------------------------------------------
+width = distancia do main das bordas, precisa do margin: auto
+--------------------------------------------------------------------
+font- weight:= peso da fonte (lighter, normal, bold, bolder) ou (100-900) ou ctrl+espaço
+------------------------------------------------------------------------------
+font-style: italico ou normal
+----------------------------------------------------------------------------
+text-decoration: underline = sublinhado
+---------------------------------------------------------
+ou font: font-style -> font-weight -> font-size -> font-family'     
+----------------------------------------------------------------
+text-indent = inicia um parágrafo igual uma redação
+------------------------------------------------------------
+id = diferencia as tags iguais,  h1#principal fica assim no  css, em HTML é id= em CSS é #
+--------------------------------------------------------------------------------
+em HTML é class= em CSS é .
+-------------------------------------------------------------------
+class = mesma coisa que id, mas pode usar mais de uma vez ,SPAN= uma tag para um trecho do texto ficar com uma classe
+-------------------------------------------------------------------------------------------------------
+consigo colocar mais de 1 . em uma class, ex: class="basico destaque"
+------------------------------------------------------------------------
+height: altura, width: largura
+--------------------------------------------------------------
+display: inline-block; = tudo na meesma  linha
+--------------------------------------------------------------
+:hover= quando passar o mouse encima essa pseudoclasse acontece
+----------------------------------------------------------------------
+div > p = paragrafo que está dentro da div
+-----------------------------------------------
+display: none = não mostre nada
+------------------------------------------------
+display: block = mostrar
+--------------------------------------------------------------
+  div > p {
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+        } 
+        div:hover{
+            color: red;
+        } = exemplo de texto escondido
+-------------------------------------------------------------------
+a:visited = quando o link for visitado
+------------------------------------------------------------
+text-decoration: none = Tira o sublinhado do link
+---------------------------------------------------------
+a:hover + text-decoration: underline = quando passar o mouse por cima o link fica sublinhado
+---------------------------------------------------------------------------------
+a:active + a cor = quando clicar  no link ele muda a cor
+--------------------------------------------------------
+a::after + content: '[Link}' = avisa que é um link
+--------------------------------------------------------
+===========================
+MODELO DE CAIXAS
+
+height: altura, width: largura
+-----------------------
+borda ao redor da caixa = border
+border = widht style color
+----------------------------
+padding = distancia da borda do que está dentro da caixa
+padding = top right bottom left
+--------------------------------------------------
+margin = espaço externo da caixa
+margin = top right bottom left, margin: auto fica automaticamente no centro
+--------------------------------- 
+outline = marcação por fora da borda
+ouutline = widht style color
+=========================
+ESTRUTURA DO SITE
+
+header = cabeçalho
+------------------
+main = conteudo principal
+-----------------------
+footer = rodapé
+-----------------------
+<nav> é utilizado quando precisamos representar um agrupamento de links de navegação
+---------------
+section = uma seção do site
+-------------------------
+article =
+---------------------------------------------------------------------------------
+<figure> é uma marcação de uso específico para a inserção de uma figura.
+--------------------------------------------------------------------
+=================================================================
+box-shadow = sombra
+------------------------------------------------------------
+variaveis css = :root{
+                       --nome dda variavel
+-------------------------------------------------------
+min-width: 800px; site fica responsivo
+min-width: 320px;:
+-------------------------------------------------------------
+<picture>
+            <source media="(max-width: 800px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="irina" >
+</picture> = a imagem fica responsiva
+------------------------------------------------------------------
+line-height: = altura da linha
+---------------------------------------------------
+transition-duration = tempo pra acoontecer o hover
+--------------------------------------------------
+list-style-position: inside; = bolinha da lista fica pra dentro
+---------------------------------------------------
+columns: = numero de colunas da lista
+-------------------------------------------
+list-style-type: '\2714\00a0'; = simbolo de mark no antes da lista

@@ -118,3 +118,5 @@ list-style-position: inside; = bolinha da lista fica pra dentro
 columns: = numero de colunas da lista
 -------------------------------------------
 list-style-type: '\2714\00a0'; = simbolo de mark no antes da lista
+------------------------------------------------------------------
+background-image: url("imagens/nome do arquivo.png"); = coloca uma imagem de fundo em uma div

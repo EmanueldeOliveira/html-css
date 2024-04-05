@@ -1,32 +1,35 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .container {
-  position: relative;
-  display: inline-block; /* Para que o container tenha o tamanho do conteúdo */
-}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Layout com Imagem e Parágrafo Responsivo</title>
+<style>
+  .container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os elementos quebrem para a linha seguinte quando necessário */
+  }
 
-.texto {
-  position: absolute;
-  bottom: 0;
-  left: 100%; /* Alinha o texto ao lado direito da imagem */
-  transform: translateY(-100%);
-  white-space: nowrap; /* Impede que o texto quebre em várias linhas */
-}
+  .image {
+    max-width: 100%; /* Ajusta a largura da imagem para o tamanho do contêiner pai */
+    margin-right: 20px; /* Espaçamento entre a imagem e o parágrafo */
+    flex: 0 0 auto; /* Impede que a imagem diminua de tamanho para caber no contêiner */
+  }
 
-    </style>
+  .paragraph {
+    flex: 1; /* O parágrafo ocupará o espaço restante no contêiner flexível */
+    max-width: calc(100% - 220px); /* Ajusta a largura máxima do parágrafo, levando em consideração a largura máxima da imagem e o espaçamento */
+  }
+</style>
 </head>
 <body>
-    <div class="container">
-        <img src="imagensplaneas/marte.png" alt="Imagem">
-        <div class="texto">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio officia, voluptatem odio expedita voluptatibus perspiciatis ex culpa voluptas, dignissimos ea, cumque adipisci dolor quibusdam dolorem autem asperiores unde fugit non. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est illum molestiae vero porro voluptate accusantium similique possimus vitae libero expedita, culpa deleniti voluptatem temporibus, itaque, quas sequi inventore repudiandae dolores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt animi laboriosam molestiae laborum repellendus deleniti, illo magnam ipsa rerum tempora possimus quas soluta in doloribus corporis vel hic optio velit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam quidem dicta vitae illo. Earum ratione odio qui, delectus fugiat aspernatur repellat perferendis aut facilis. Odio repellendus et architecto laudantium nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita hic laborum magni architecto recusandae repellendus sint dolorem dignissimos amet, iste doloribus maxime aut placeat tempora velit, obcaecati soluta consequuntur ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nulla dignissimos, perferendis voluptates quam minima iusto cupiditate minus architecto officiis nesciunt accusantium ipsa voluptate similique ipsum vitae sapiente illum officia? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet repellat modi omnis doloribus vero quis, quos dolores exercitationem porro voluptates quidem velit enim possimus sed tempora tenetur iusto maxime illum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque iusto omnis quos nemo officiis, id ut. Eum molestiae labore voluptatem mollitia quas, quisquam, praesentium perspiciatis accusantium nam, nesciunt nisi libero?</p>
-        </div>
-      </div>
-      
+
+<div class="container">
+  <img src="imagensplaneas/mercurio.png" alt="Imagem" class="image">
+  <p class="paragraph">
+    Seu parágrafo aqui. Você pode adicionar texto suficiente para que ele ultrapasse o limite da imagem. O CSS configurado fará com que o texto vá para baixo da imagem quando necessário. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ullam, velit voluptas quibusdam esse inventore blanditiis quam. Architecto et, cumque blanditiis incidunt eaque labore dolore cupiditate consequatur amet officia voluptatem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi dolore neque placeat accusamus beatae, consequuntur eveniet nesciunt modi quas illo iure sed cupiditate corrupti exercitationem esse saepe iste voluptatum amet? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quam eius dolorem! Dicta, consectetur et minus inventore eius vero qui soluta at cumque dolores, quod fugiat unde mollitia eaque animi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam fugiat ullam quae cumque explicabo dignissimos dolorum dolore autem, numquam illo aperiam pariatur placeat consequatur porro qui nam, distinctio praesentium amet? Lolipop Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aliquid non veniam, voluptatem laboriosam placeat officiis, dolorum dolorem quas qui fuga velit? Maxime ratione autem porro harum non cum nihil.
+  </p>
+</div>
+
 </body>
 </html>

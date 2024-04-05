@@ -165,18 +165,18 @@ div > p{
 }
 footer{
     width: auto;
+    
 }
 
 footer > h1{
     color: white;
     text-shadow: 3px 3px 5px black;
 }
-footer > ul{
-    
-}
+
 
 div.video > iframe{
     border-radius: 10px;
+    
 }
 
 
@@ -184,6 +184,7 @@ div.video > iframe{
 div.video > h1{
     color: white;
     text-shadow: 3px 3px 5px black;
+    
 }
 
 a{
@@ -207,3 +208,5 @@ a:hover{
     padding: 0px;
     text-shadow: 3px 3px 5px black;
 }
+
+

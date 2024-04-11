@@ -110,7 +110,7 @@ footer{
     margin-bottom: -16px;
     box-shadow: -1px 2px 9px gray;
 }
-footer > p{
+footer > p.creditos{
     color: white;
     padding: 2px;
     text-align: center;
@@ -124,6 +124,14 @@ a:hover{
     border-radius: 5px;
     transition-duration: 0.3s;
 }
+footer > p{
+    text-align: center;
+    color: white;
+}
+    
+
+
+
 
 
 

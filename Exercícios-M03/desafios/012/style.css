@@ -46,7 +46,7 @@ p.primeiro{
 }
 div.imagem{
     background-image: url("imagens/background001.jpg");
-    
+    background-size: cover;
     background-position: right center;
     background-attachment: fixed;
     text-shadow: 2px 2px 5px rgb(196, 196, 196);
@@ -82,8 +82,7 @@ p.quarto{
 }
 div.imagem2{
     background-image: url("imagens/background002.jpg");
-    
-    
+    background-size: cover;
     background-attachment: fixed;
     box-shadow: inset 1px -1px 10px 0px rgb(0, 0, 0);
     background-position: right bottom;
@@ -118,6 +117,7 @@ p.setimo{
     padding-top: 3vh;
     text-shadow: 2px 2px 5px rgba(189, 189, 189, 0.808);
 }
+
 footer{
     background-color: black;
     
@@ -125,6 +125,7 @@ footer{
 }
 footer > p.creditos{
     color: white;
+    font-size: 0.5vw;
     padding: 2px;
     text-align: center;
 }

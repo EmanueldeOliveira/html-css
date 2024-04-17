@@ -173,5 +173,11 @@ OBS: forma mais fácil de centralizar:
     	    align-items: center;		(alinhamento vertical)
       }
 	   -> Essas propriedades são colocadas no elemento-pai (container, nesse exemplo).
+------------------------------------------------------------------
+HIERARQUIA DE TABELAS (SIMPLES)
+TABLE = tabela
+      TABLE ROWS (tr) = linha de tabela
+      TABLE HEADER = cabeçalho de tabela
+      TABLE DATA = dado de tabela
 
  

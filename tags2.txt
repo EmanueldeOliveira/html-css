@@ -179,5 +179,6 @@ TABLE = tabela
       TABLE ROWS (tr) = linha de tabela
       TABLE HEADER = cabeçalho de tabela
       TABLE DATA = dado de tabela
-
+------------------------------------------------------------------
+vertical-align= alinhamento vertical das celulas de uma tabela
  

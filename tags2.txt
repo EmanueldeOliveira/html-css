@@ -181,4 +181,9 @@ TABLE = tabela
       TABLE DATA = dado de tabela
 ------------------------------------------------------------------
 vertical-align= alinhamento vertical das celulas de uma tabela
- 
+------------------------------------------------------------------
+caption = legenda da tabela
+------------------------------------------------------------------
+tr:nth-child(2n) : efeito zebrado na tabela ou 
+tr:nth-child(odd) odd= par 
+tr:nth-child(even) even= impar

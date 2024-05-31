@@ -48,12 +48,15 @@ div.imagem{
     box-shadow: inset 1px -1px 10px 0px rgb(0, 0, 0)
 }
 p.segundo{
+    background-color: rgba(243, 243, 243, 0.288);
     color: white;
     font-family: "Sriracha";
     font-size: 3.5vw;
-    padding-top: 10vh;
-    padding-left: 50px;
-    padding-bottom: 10vh;
+    margin-top: 10vh;
+    margin-left: 45px;
+    margin-bottom: 10vh;
+    border-radius: 10px;
+    padding: 5px;
     text-shadow: 3px 1px 4px rgb(0, 0, 0);
     display: inline-block;
 }
@@ -136,6 +139,7 @@ a:hover{
 footer > p{
     text-align: center;
     color: white;
+    padding: 5px;
 }
     
 

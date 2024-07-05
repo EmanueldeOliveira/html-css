@@ -177,8 +177,8 @@ OBS: forma mais fácil de centralizar:
 HIERARQUIA DE TABELAS (SIMPLES)
 TABLE = tabela
       TABLE ROWS (tr) = linha de tabela
-      TABLE HEADER = cabeçalho de tabela
-      TABLE DATA = dado de tabela
+      		TABLE HEADER = cabeçalho de tabela
+      		TABLE DATA = dado de tabela
 ------------------------------------------------------------------
 vertical-align= alinhamento vertical das celulas de uma tabela
 ------------------------------------------------------------------
@@ -187,3 +187,15 @@ caption = legenda da tabela
 tr:nth-child(2n) : efeito zebrado na tabela ou 
 tr:nth-child(odd) odd= par 
 tr:nth-child(even) even= impar
+------------------------------------------------------------------
+border-collapse: collapse; = tira o espaçamento entre os dados da tabela
+------------------------------------------------------------------------
+HIERARQUIA DE TABELAS GRANDES
+
+TABLE
+   THEAD(OPCIONAL)
+       TR, TD, TH
+   TBODY
+       TR, TD, TH
+   TFOOT(OPCIONAL)
+       TR, TD, TH

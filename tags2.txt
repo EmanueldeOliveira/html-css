@@ -199,3 +199,9 @@ TABLE
        TR, TD, TH
    TFOOT(OPCIONAL)
        TR, TD, TH
+-------------------------------------------------------------------------
+table
+    colgroup
+          col class= nome da coluna
+    colgroup
+Assim tem como destacar uma coluna inteira

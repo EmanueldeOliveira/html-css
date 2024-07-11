@@ -205,3 +205,6 @@ table
           col class= nome da coluna
     colgroup
 Assim tem como destacar uma coluna inteira
+----------------------------------------------------------------------------------------
+PARA DEIXAR UMA TABELA RESPONSIVA BASTA: ENVELOPAR A TABELA COM UMA DIV E CLASSIFICAR
+ESSA DIV COMO CONTAINER E COLOCAR UM OVERFLOW X

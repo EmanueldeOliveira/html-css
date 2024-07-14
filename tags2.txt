@@ -210,3 +210,6 @@ PARA DEIXAR UMA TABELA RESPONSIVA BASTA: ENVELOPAR A TABELA COM UMA DIV E CLASSI
 ESSA DIV COMO CONTAINER E COLOCAR UM OVERFLOW X
 ------------------------------------------------------------------------------------------
 Tamanho padrão do iframe = 300x150
+-----------------------------------------------------------------------------------------
+Para o link abrir dentro de um iframe dentro do mesmo site, basta colocar uma tag name 
+no iframe e dar um nome, e depois vai no link e coloca uma tag target= nome que voce colocou

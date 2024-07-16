@@ -1,5 +1,5 @@
 # html-css
  Curso de Html5 e Css3
- Estou aprendendo a criar sites e gerenciar meus repositírios
+ Estou aprendendo a criar sites e gerenciar meus repositórios
 
  <a href="https://emanueldeoliveira.github.io/html-css/Exercícios-M01/ex001/index.html" target: _blank>Executar o exercício 001</a>

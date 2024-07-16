@@ -213,3 +213,5 @@ Tamanho padrão do iframe = 300x150
 -----------------------------------------------------------------------------------------
 Para o link abrir dentro de um iframe dentro do mesmo site, basta colocar uma tag name 
 no iframe e dar um nome, e depois vai no link e coloca uma tag target= nome que voce colocou
+---------------------------------------------------------------------------------------------
+Para deixar um iframe seguro basta colocar uma tag sandbox= 'sandbox' e referrepolicy= 'no-referrer'

@@ -222,3 +222,19 @@ background-size: cover; deixa a imagem ajustada
             width: 0px;
             height:0px
         } esconde a barra de rolagem
+--------------------------------------------------------------------------------------------
+<form action="cadastro.php" method="post" autocomplete=off>
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+=exemplo de formulário, sempre usar label
+
+autocomplete=off = ele não da sugestoes de nomes
+------------------------------------------------------------------------------------------
+Existem dois métodos de envio de formulário (Get e Post) get é o padrão
+
+GET= o que você colocou no formulário, ela aparece na url (Não é ideal para dados sensiveis), 
+so aguenta 3.000bytes(letras)
+
+POST= Não aparece na url (ideal para dados sensiveis), mais não é seguro

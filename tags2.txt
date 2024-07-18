@@ -230,6 +230,8 @@ background-size: cover; deixa a imagem ajustada
     </form>
 =exemplo de formulário, sempre usar label
 
+i ID do input tem que ser o mensmo nome do label
+
 autocomplete=off = ele não da sugestoes de nomes
 ------------------------------------------------------------------------------------------
 Existem dois métodos de envio de formulário (Get e Post) get é o padrão
@@ -238,3 +240,13 @@ GET= o que você colocou no formulário, ela aparece na url (Não é ideal para 
 so aguenta 3.000bytes(letras)
 
 POST= Não aparece na url (ideal para dados sensiveis), mais não é seguro
+----------------------------------------------------------------------------------------
+INPUTS
+
+type= reset = botão de limpar
+------------------------------
+Sempre que o campro pra preencher for obrigatórico tem que colocar o atributo required
+------------------------------
+minlenght = X =atributo para o minimo de letras, maxlenght= para o máximo
+------------------------------
+o atributo PLACEHOLDER mostra dentro ca caixa o que é pra colocar

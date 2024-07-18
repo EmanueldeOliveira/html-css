@@ -244,9 +244,23 @@ POST= Não aparece na url (ideal para dados sensiveis), mais não é seguro
 INPUTS
 
 type= reset = botão de limpar
+
+type="number" = so aceita numero
+
+type="month" = período do ano
+
+type= "date" = para dias
+
+type= "time" = para horas
 ------------------------------
 Sempre que o campro pra preencher for obrigatórico tem que colocar o atributo required
 ------------------------------
 minlenght = X =atributo para o minimo de letras, maxlenght= para o máximo
 ------------------------------
 o atributo PLACEHOLDER mostra dentro ca caixa o que é pra colocar
+------------------------------
+os atributos MIN e MAX são para caixas numéricas
+
+o atributo STEP="0.1" para aceiter numeros quebrados
+------------------------------
+o atributo VALUE permite você ja deixar um valor sugerido

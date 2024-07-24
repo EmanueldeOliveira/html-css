@@ -256,6 +256,10 @@ type= "time" = para horas
 type="checkbox" = caixa de marcar e desmarcar
 
 type="radio" = para sexo, tem que ter o mesmo NAME para funcionar, e usa o atributo CHEKED no que voce quer deixar marcado
+
+type="color" = escolher uma cor
+
+type="file" = enviar uma foto( tem que usar o método post )
 ------------------------------
 Sempre que o campro pra preencher for obrigatórico tem que colocar o atributo required
 ------------------------------
